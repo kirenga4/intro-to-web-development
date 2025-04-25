@@ -5,23 +5,24 @@
   <meta charset="UTF-8" />
   <title>Learn - Get Started Today</title>
   <meta name="description" content="Learn is a platform that offers free courses for everyone. Start learning today!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
   <nav class="navbar">
   <div class="navbar-logo">
-    <img src="./images/logo.png" width="300" />
+   <img src="./images/logo.png" width="280px" srcset="" title="This is the website logo">
   </div>
   <ul class="navbar-items">
-    <li>About Me</li>
-    <li>Journey</li>
-    <li>Goals</li>
+    <a href="#hero"><li>About Me</li></a>
+    <a href="#coding-journey"><li>Journey</li></a>    
+    <a href="#"><li>Goals</li></a>
   </ul>
 </nav>
   
-  <div class="hero">
+  <div class="hero" id="hero">
   <h1>
     Hello! <br />
     I'm Mary Jane
@@ -37,11 +38,7 @@
 
   <div class="journey-list">
     <div id="intro" class="journey-card">
-      <img
-        src="/images/intro-to-web.png"
-        class="journey-image"
-        alt="Course Image"
-      />
+      <img src="./images/intro-to-web.png" class="journey-image" alt="Course Image"/>
       <div>
         <h3>Intro To Web Development</h3>
         <p>
@@ -51,7 +48,7 @@
     </div>
 
     <div id="react" class="journey-card">
-      <img src="/images/react.png" class="journey-image" alt="Course Image" />
+      <img src="./images/react.png" class="journey-image" alt="Course Image" />
       <div>
         <h3>React Development</h3>
         <p>
@@ -61,7 +58,7 @@
     </div>
 
     <div id="backend" class="journey-card">
-      <img src="/images/backend.png" class="journey-image" alt="Course Image" />
+      <img src="./images/backend.png" class="journey-image" alt="Course Image" />
       <div>
         <h3>Back-end Development</h3>
         <p>
